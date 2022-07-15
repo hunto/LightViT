@@ -18,8 +18,8 @@ Code for ImageNet training was released.
 
 |model|resolution|acc@1|acc@5|#params|FLOPs|ckpt|log|
 |:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
-|LightViT-T|224x224|78.7|94.4|9.4M|0.7G|||
-|LightViT-S|224x224|80.9|95.3|19.2M|1.7G|||
+|LightViT-T|224x224|78.7|94.4|9.4M|0.7G|[google drive](https://drive.google.com/file/d/1NasAnHYK6bkmj0-rzYvxQSEUiKAOW3j9/view?usp=sharing)|[log](https://github.com/hunto/LightViT/releases/download/v0.0.1/log_lightvit_tiny.csv)|
+|LightViT-S|224x224|80.9|95.3|19.2M|1.7G|[google drive](https://drive.google.com/file/d/16EZUth-wZ7rKR6tI67_Smp6GGzaODp16/view?usp=sharing)|[log](https://github.com/hunto/LightViT/releases/download/v0.0.1/log_lightvit_small.csv)|
 |LightViT-B|224x224|82.1|95.9|35.2M|3.9G|||
 
 ### Preparation  
