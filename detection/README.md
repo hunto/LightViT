@@ -16,8 +16,14 @@
 |backbone|params|FLOPs|Setting|box AP|mask AP|config|log|ckpt|
 |:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
 |LightViT-T|28|187|1x|37.8|35.9|[config](configs/mask_rcnn_lightvit_tiny_fpn_1x_coco.py)|||
-|LightViT-S|38|204|1x|40.0|37.4||||
-|LightViT-B|54|240|1x|41.7|38.8||||
-|LightViT-T|28|187|3x+ms|41.5|38.4||||
-|LightViT-S|38|204|3x+ms|43.2|39.9||||
-|LightViT-B|54|240|3x+ms|45.0|41.2||||
+|LightViT-S|38|204|1x|40.0|37.4|[config](configs/mask_rcnn_lightvit_small_fpn_1x_coco.py)|||
+|LightViT-B|54|240|1x|41.7|38.8|[config](configs/mask_rcnn_lightvit_base_fpn_1x_coco.py)|||
+|LightViT-T|28|187|3x+ms|41.5|38.4|[config](configs/mask_rcnn_lightvit_tiny_fpn_3x_ms_coco.py)|||
+|LightViT-S|38|204|3x+ms|43.2|39.9|[config](configs/mask_rcnn_lightvit_small_fpn_3x_ms_coco.py)|||
+|LightViT-B|54|240|3x+ms|45.0|41.2|[config](configs/mask_rcnn_lightvit_base_fpn_3x_ms_coco.py)|||
+
+### Training script:  
+
+```shell
+sh dist_train.sh ${CONFIG} 8 work_dirs/${EXP_NAME}
+```
