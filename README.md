@@ -5,6 +5,9 @@ By Tao Huang, Lang Huang, Shan You, Fei Wang, Chen Qian, Chang Xu.
 
 
 ## Updates  
+### July 26, 2022
+Code for COCO detection was released.
+
 ### July 14, 2022  
 Code for ImageNet training was released.
 
@@ -61,6 +64,9 @@ or
 ```shell
 python tools/speed_test.py -c configs/strategies/lightvit/config.yaml --model ${MODEL} --drop-path-rate 0.1 --batch-size 1024
 ```
+
+## Results on COCO  
+We conducted experiments on COCO object detection & instance segmentation tasks, see [detection/README.md](detection/README.md) for details.
 
 ## License  
 This project is released under the [Apache 2.0 license](LICENSE).
